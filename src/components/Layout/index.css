@@ -13,3 +13,6 @@ section:after {
   position: relative;
   min-height: 100vh;
 }
+.Logo {
+  background-image: url(./../../logo.svg);
+}
