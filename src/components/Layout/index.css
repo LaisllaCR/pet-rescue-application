@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+section {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
