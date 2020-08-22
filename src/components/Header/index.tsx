@@ -24,16 +24,6 @@ const Header = () => (
           <Nav.Link href="#link">About us</Nav.Link>
           <Nav.Link href="#link">Pets</Nav.Link>
           <Nav.Link href="#link">Shelters</Nav.Link>
-          <NavDropdown
-            title="My account"
-            id="basic-nav-dropdown"
-            className="account-links"
-          >
-            <NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Preferences</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Sign out</NavDropdown.Item>
-          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

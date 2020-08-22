@@ -4,4 +4,15 @@ footer {
   color: white;
   flex: 0 0 50px; /*or just height:50px;*/
   margin-top: auto;
+  padding: 20px;
+}
+.footer-copyright {
+  padding-top: 20px;
+  border-top: 1px solid #fad803;
+}
+.list-group-item {
+  background-color: #777;
+}
+.social-midia-icons {
+  padding: 5px;
 }
