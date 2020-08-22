@@ -1,12 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./../pages/Home";
+import Dashboard from "../pages/Dashboard";
 
 const Routes = () => (
   <Router>
     <Switch>
       <Route path="/">
         <Home />
+      </Route>
+      <Route path="/admin">
+        <Dashboard />
       </Route>
     </Switch>
   </Router>
