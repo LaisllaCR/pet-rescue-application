@@ -7,8 +7,8 @@ const Footer = () => (
     <div>
       <Row>
         <Col lg={6}>
+          <h4>Pet Rescue</h4>
           <p className="text-left">
-            <h4>Pet Rescue</h4>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
             eget dapibus eros. Nunc rhoncus massa non accumsan ultrices. Sed
             sodales velit ut euismod viverra.
@@ -17,13 +17,13 @@ const Footer = () => (
         <Col lg={3}>
           <ListGroup variant="flush">
             <ListGroup.Item>
-              <a href="">About us</a>
+              <a href="/about">About</a>
             </ListGroup.Item>
             <ListGroup.Item>
-              <a href="">Pets</a>
+              <a href="/pets">Pets</a>
             </ListGroup.Item>
             <ListGroup.Item>
-              <a href="">Shelters</a>
+              <a href="/shelters">Shelters</a>
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -40,17 +40,17 @@ const Footer = () => (
         <Col lg={9}>
           <div className="text-left align-middle">
             © 2020 Copyright:
-            <a href=""> PetRescue.com</a>
+            <a href="www.petrescue.com"> PetRescue.com</a>
           </div>
         </Col>
         <Col lg={3}>
-          <a href="" className="social-midia-icons">
+          <a href="www.petrescue.com" className="social-midia-icons">
             <i className="fab fa-twitter-square fa-3x"></i>
           </a>
-          <a href="" className="social-midia-icons">
+          <a href="www.petrescue.com" className="social-midia-icons">
             <i className="fab fa-google-plus-square fa-3x"></i>
           </a>
-          <a href="" className="social-midia-icons">
+          <a href="www.petrescue.com" className="social-midia-icons">
             <i className="fab fa-facebook-square fa-3x"></i>
           </a>
         </Col>

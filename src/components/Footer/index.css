@@ -1,17 +1,17 @@
 footer {
-  background-color: #777;
-  text-align: center;
-  color: white;
+  background-color: black;
+  color: #cccccc;
   flex: 0 0 50px; /*or just height:50px;*/
   margin-top: auto;
   padding: 20px;
 }
+
 .footer-copyright {
   padding-top: 20px;
   border-top: 1px solid #fad803;
 }
 .list-group-item {
-  background-color: #777;
+  background-color: black;
 }
 .social-midia-icons {
   padding: 5px;

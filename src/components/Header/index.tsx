@@ -1,12 +1,12 @@
 import * as React from "react";
 import "./index.css";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import logo from "./../../logo-only-small.png";
 
 const Header = () => (
   <header>
     <Navbar bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <div>
           <img
             alt=""
@@ -20,10 +20,10 @@ const Header = () => (
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">About us</Nav.Link>
-          <Nav.Link href="#link">Pets</Nav.Link>
-          <Nav.Link href="#link">Shelters</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+          <Nav.Link href="/pets">Pets</Nav.Link>
+          <Nav.Link href="/shelters">Shelters</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

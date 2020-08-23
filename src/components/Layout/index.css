@@ -27,3 +27,17 @@ section:after {
 .carousel-indicators .active {
   background-color: #fad803;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fcda00 !important;
+  font-weight: bold;
+}
+
+a {
+  color: #fcda00 !important;
+  font-weight: bold;
+}

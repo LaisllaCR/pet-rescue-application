@@ -1,5 +1,20 @@
 article {
-  margin: 20px;
-  padding: 20px;
-  background-color: #666;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+}
+.article-title {
+  border-bottom: dotted 2px #cccccc;
+  margin-bottom: 10px;
+  padding-bottom: 1px;
+  display: table-cell;
+}
+.article-link {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: right;
+  padding-left: 10px;
+}
+.article-header {
+  margin-bottom: 10px;
 }
