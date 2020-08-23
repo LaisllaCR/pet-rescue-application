@@ -8,7 +8,12 @@ const PetView: React.FC = () => {
     <Layout>
       <Container fluid>
         <article>
-          <h1>Pet View</h1>
+          <div className="article-header">
+            <div className="article-title">
+              <h1>Pet View</h1>
+            </div>
+          </div>
+          <div></div>
         </article>
       </Container>
     </Layout>

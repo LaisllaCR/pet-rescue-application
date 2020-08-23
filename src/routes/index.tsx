@@ -7,7 +7,6 @@ import Pets from "../pages/Pets";
 import PetView from "../pages/PetView";
 import Shelters from "../pages/Shelters";
 import ShelterView from "../pages/ShelterView";
-import Shelter from "../pages/Shelters";
 
 const Routes = () => (
   <Router>

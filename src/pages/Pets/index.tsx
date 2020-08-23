@@ -1,14 +1,31 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import "./index.css";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import PetCardGrid from "./../../components/PetCardGrid";
 
 const Pets: React.FC = () => {
   return (
     <Layout>
       <Container fluid>
         <article>
-          <h1>Pets</h1>
+          <div className="article-header">
+            <div className="article-title">
+              <h1>Pets for adoption</h1>
+            </div>
+          </div>
+          <div>
+            <Row>
+              <PetCardGrid />
+              <PetCardGrid />
+              <PetCardGrid />
+              <PetCardGrid />
+              <PetCardGrid />
+              <PetCardGrid />
+              <PetCardGrid />
+              <PetCardGrid />
+            </Row>
+          </div>
         </article>
       </Container>
     </Layout>

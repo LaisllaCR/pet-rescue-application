@@ -8,7 +8,12 @@ const ShelterView: React.FC = () => {
     <Layout>
       <Container fluid>
         <article>
-          <h1>Shelter View</h1>
+          <div className="article-header">
+            <div className="article-title">
+              <h1>Shelter View</h1>
+            </div>
+          </div>
+          <div></div>
         </article>
       </Container>
     </Layout>
