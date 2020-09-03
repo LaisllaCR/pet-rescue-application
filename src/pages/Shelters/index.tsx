@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import "./index.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import ShelterCardGrid from "./../../components/ShelterCardGrid";
 
 const Pets: React.FC = () => {

@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./index.css";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import PetCard from "./../ShelterCard";
 
 const ShelterCardGrid = () => (

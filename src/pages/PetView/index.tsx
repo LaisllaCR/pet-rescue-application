@@ -19,19 +19,17 @@ const PetView: React.FC = () => {
                 <Col lg={6}>
                   <h5>Story</h5>
                   <Card.Text>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Quisque accumsan tellus id lacus rutrum auctor. Nam et
-                      eros ac enim ultricies cursus. Duis eget laoreet nisl.
-                      Nunc viverra augue eros, quis aliquet odio congue in.
-                      Phasellus cursus tortor a tincidunt fermentum. Aenean ac
-                      risus porttitor, placerat ante eget, blandit dui. Integer
-                      sapien libero, maximus et laoreet ac, imperdiet tristique
-                      nibh. Fusce dictum ante tellus, quis finibus diam dictum
-                      id. Pellentesque malesuada ligula a urna vestibulum, ut
-                      eleifend urna luctus. Curabitur a leo ultricies,
-                      sollicitudin eros nec, porta ante.{" "}
-                    </p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque accumsan tellus id lacus rutrum auctor. Nam et eros
+                    ac enim ultricies cursus. Duis eget laoreet nisl. Nunc
+                    viverra augue eros, quis aliquet odio congue in. Phasellus
+                    cursus tortor a tincidunt fermentum. Aenean ac risus
+                    porttitor, placerat ante eget, blandit dui. Integer sapien
+                    libero, maximus et laoreet ac, imperdiet tristique nibh.
+                    Fusce dictum ante tellus, quis finibus diam dictum id.
+                    Pellentesque malesuada ligula a urna vestibulum, ut eleifend
+                    urna luctus. Curabitur a leo ultricies, sollicitudin eros
+                    nec, porta ante.
                   </Card.Text>
                   <Row>
                     <Col>

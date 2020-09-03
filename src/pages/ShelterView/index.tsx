@@ -39,7 +39,7 @@ const ShelterView: React.FC = () => {
                       <h5>Contact</h5>
                       <Card.Text>James D. Box</Card.Text>
                       <Card.Text>beeanimalshelter@gmail.com </Card.Text>
-                      <a href="">www.beeanimalshelter.com </a>
+                      <a href="#">www.beeanimalshelter.com </a>
                     </Col>
                   </Row>
                   <Row>
