@@ -1,24 +1,7 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import "./index.css";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import { Link }  from "react-router-dom";
-import ImageGallery from "react-image-gallery";
-
-const images = [
-  {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
-  },
-  {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-  },
-];
+import { Container, Row, Col, Card, Figure } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const PetView: React.FC = () => {
   return (
@@ -33,7 +16,8 @@ const PetView: React.FC = () => {
           <Card>
             <Card.Body>
               <Row>
-                <Col lg={6}><h5>Story</h5>
+                <Col lg={6}>
+                  <h5>Story</h5>
                   <Card.Text>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -52,7 +36,8 @@ const PetView: React.FC = () => {
                   <Row>
                     <Col>
                       <h5>Breed</h5>
-                      <Card.Text>Shitzu</Card.Text></Col>
+                      <Card.Text>Shitzu</Card.Text>
+                    </Col>
                     <Col>
                       <h5>Gender</h5>
                       <Card.Text>Female</Card.Text>
@@ -70,52 +55,58 @@ const PetView: React.FC = () => {
                   </Row>
                   <Row>
                     <Col>
-                  <h5>Age</h5>
-                  <Card.Text>Adult</Card.Text>
+                      <h5>Age</h5>
+                      <Card.Text>Adult</Card.Text>
                     </Col>
                     <Col>
-                  <h5>Hair</h5>
-                  <Card.Text>Long hair</Card.Text>
+                      <h5>Hair</h5>
+                      <Card.Text>Long hair</Card.Text>
                     </Col>
                   </Row>
                   <Row>
                     <Col>
-                  <h5>Special needs?</h5>
-                  <Card.Text>No</Card.Text>
+                      <h5>Special needs?</h5>
+                      <Card.Text>No</Card.Text>
                     </Col>
                     <Col>
-                  <h5>Neuter?</h5>
-                  <Card.Text>No</Card.Text>
+                      <h5>Neuter?</h5>
+                      <Card.Text>No</Card.Text>
                     </Col>
                   </Row>
                   <Row>
                     <Col>
-                  <h5>Vaccine?</h5>
-                  <Card.Text>No</Card.Text>
+                      <h5>Vaccine?</h5>
+                      <Card.Text>No</Card.Text>
                     </Col>
                     <Col>
-                  <h5>Chip?</h5>
-                  <Card.Text>No</Card.Text>
+                      <h5>Chip?</h5>
+                      <Card.Text>No</Card.Text>
                     </Col>
                   </Row>
                   <Row>
                     <Col>
-                  <h5>Leash?</h5>
-                  <Card.Text>No</Card.Text>
+                      <h5>Leash?</h5>
+                      <Card.Text>No</Card.Text>
                     </Col>
                   </Row>
-                  
                 </Col>
                 <Col lg={6} className="text-center">
-                  <ImageGallery items={images} />
+                  <Figure>
+                    <Figure.Image
+                      width={450}
+                      height={350}
+                      alt="171x180"
+                      src="https://picsum.photos/id/1018/450/350/"
+                    />
+                  </Figure>
                   <Row>
                     <Col>
-      <Link className="btn" to="/">
-        Contact
-      </Link>
-      <Link className="btn" to="/">
-        Share
-      </Link>
+                      <Link className="btn" to="/">
+                        Contact
+                      </Link>
+                      <Link className="btn" to="/">
+                        Share
+                      </Link>
                     </Col>
                   </Row>
                 </Col>

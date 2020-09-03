@@ -15,9 +15,9 @@ const Routes = () => (
       <Route path="/about" component={About}></Route>
       <Route path="/admin" component={Dashboard}></Route>
       <Route path="/pets" component={Pets}></Route>
-      <Route path="/petview" component={PetView}></Route>
+      <Route path="/petview/:id?" component={PetView}></Route>
       <Route path="/shelters" component={Shelters}></Route>
-      <Route path="/shelterview" component={ShelterView}></Route>
+      <Route path="/shelterview/:id?" component={ShelterView}></Route>
     </Switch>
   </Router>
 );

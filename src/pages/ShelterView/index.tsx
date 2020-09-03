@@ -1,24 +1,8 @@
 import React from "react";
 import Layout from "../../components/Layout";
 import "./index.css";
-import { Container, Row, Col, Card } from "react-bootstrap";
-import { Link }  from "react-router-dom";
-import ImageGallery from "react-image-gallery";
-
-const images = [
-  {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/250/150/",
-  },
-  {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-  },
-];
+import { Container, Row, Col, Card, Figure } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const ShelterView: React.FC = () => {
   return (
@@ -33,7 +17,8 @@ const ShelterView: React.FC = () => {
           <Card>
             <Card.Body>
               <Row>
-                <Col lg={6}><h5>Story</h5>
+                <Col lg={6}>
+                  <h5>Story</h5>
                   <Card.Text>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -55,33 +40,48 @@ const ShelterView: React.FC = () => {
                       <Card.Text>James D. Box</Card.Text>
                       <Card.Text>beeanimalshelter@gmail.com </Card.Text>
                       <a href="">www.beeanimalshelter.com </a>
-                      </Col>
+                    </Col>
                   </Row>
                   <Row>
                     <Col>
-          <a href="www.petrescue.com" className="social-midia-icons">
-            <i className="fab fa-twitter-square fa-3x"></i>
-          </a>
-          <a href="www.petrescue.com" className="social-midia-icons">
-            <i className="fab fa-google-plus-square fa-3x"></i>
-          </a>
-          <a href="www.petrescue.com" className="social-midia-icons">
-            <i className="fab fa-facebook-square fa-3x"></i>
-          </a>
-                      </Col>
+                      <a
+                        href="www.petrescue.com"
+                        className="social-midia-icons"
+                      >
+                        <i className="fab fa-twitter-square fa-3x"></i>
+                      </a>
+                      <a
+                        href="www.petrescue.com"
+                        className="social-midia-icons"
+                      >
+                        <i className="fab fa-google-plus-square fa-3x"></i>
+                      </a>
+                      <a
+                        href="www.petrescue.com"
+                        className="social-midia-icons"
+                      >
+                        <i className="fab fa-facebook-square fa-3x"></i>
+                      </a>
+                    </Col>
                   </Row>
-                  
                 </Col>
                 <Col lg={6} className="text-center">
-                  <ImageGallery items={images} />
+                  <Figure>
+                    <Figure.Image
+                      width={450}
+                      height={350}
+                      alt="171x180"
+                      src="https://picsum.photos/id/1018/450/350/"
+                    />
+                  </Figure>
                   <Row>
                     <Col>
-      <Link className="btn" to="/pets">
-        Pets
-      </Link>
-      <Link className="btn" to="/">
-        Donation
-      </Link>
+                      <Link className="btn" to="/pets">
+                        Pets
+                      </Link>
+                      <Link className="btn" to="/">
+                        Donation
+                      </Link>
                     </Col>
                   </Row>
                 </Col>

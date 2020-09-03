@@ -1,6 +1,6 @@
 import * as React from "react";
 import "./index.css";
-import { Carousel } from "react-bootstrap";
+import { Carousel, CardDeck } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import PetList from "./../PetList";
 

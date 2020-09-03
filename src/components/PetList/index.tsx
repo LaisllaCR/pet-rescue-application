@@ -1,11 +1,15 @@
 import * as React from "react";
 import "./index.css";
 import PetCard from "./../PetCard";
+import { CardDeck } from "react-bootstrap";
 
 const PetList = () => (
-  <div>
+  <CardDeck>
     <PetCard />
-  </div>
+    <PetCard />
+    <PetCard />
+    <PetCard />
+  </CardDeck>
 );
 
 export default PetList;
