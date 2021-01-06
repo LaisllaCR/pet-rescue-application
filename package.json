@@ -9,7 +9,7 @@
     "@types/react-image-gallery": "^1.0.0",
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "json-loader": "^0.5.7",
     "prop-types": "^15.7.2",
